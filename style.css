@@ -1,0 +1,749 @@
+#nomelogoHeader{
+    background-color: #FAECFA;
+    border-radius: 20px;
+    position: absolute;
+    width: 156px;
+    height: 55px;
+    left: 37px;
+    top: 10px;
+  }
+
+  .rectangles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 576px;
+    height:46px;
+    position: absolute;
+    top: 80px;
+    left: 307px;
+  }
+
+  .blue {
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    top: 36px;
+    left: 367px;
+  }
+
+  .pink {
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    top: 34px;
+    left: 558px;
+  }
+
+  .orange {
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    top: 38px;
+    left: 750px;
+  }
+  
+  .imagemlogoHeader{
+    position: absolute;
+    left: 0%;
+    right: 61.66%;
+    top: 0%;
+    bottom: 0%;
+    width: 74px;
+    height: 74px;
+  }
+  
+  .imagemlogoFooter{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 115px;
+    bottom: 93px;
+  }
+  
+  #logoHeader{
+    position: absolute;
+    width: 193px;
+    height: 74px;
+    left: 56px;
+    top: 40px;
+    background-color: #11ffee00; 
+  }
+  
+  .doubleHeader{
+    font-family: 'Aclonica';
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    right: 33px;
+    bottom: 6px;
+  }
+  
+  .dipHeader{
+    position: absolute;
+    font-family: 'Aclonica';
+    font-weight: 400;
+    font-size: 18px;
+    top: 9px;
+    right: 23px;
+  }
+  
+  .doubleFooter{
+    font-family: 'Aclonica';
+    font-weight: 400;
+    line-height: 27px;
+    position: absolute;
+    left: 197px;
+    bottom: 105px;
+    font-size: 24px;
+  }
+  
+  .dipFooter{
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 500;
+    font-size: 24px;
+    position: absolute;
+    left: 205px;
+    bottom: 84px;
+  }
+  
+  header{
+    position: absolute;
+    width: 1440px;
+    height: 298px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #FF99C4 44.17%, rgba(255, 255, 255, 0.12) 100%);
+  }
+  
+  footer{
+    position: absolute;
+    width: 1440px;
+    height: 222px;
+    left: 0px;
+    right: 0px;
+    top: 879px;
+    background: rgba(244, 155, 140, 0.56);
+  }
+  
+  #telefone{
+    width: 18px;
+    height: 14.35px;
+    position: absolute;
+    right: 328px;
+    bottom: 157.65px;
+  }
+  
+  #email {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 323px;
+    bottom: 101px;
+    color: #404040;
+  }
+  
+  #instagram{
+    width: 22px;
+    height: 25px;
+    position: absolute;
+    bottom: 47px;
+    right: 324px;
+  }
+  
+  .numero{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    color: #404040;
+    font-weight: 500;
+    right: 212px;
+    bottom: 140px;
+  }
+  
+  .endereco{
+    font-family: 'Montserrat', sans-serif;
+    color: #404040;
+    font-weight: 500;
+    font-size: 16px;
+    position: absolute;
+    right: 135px;
+    bottom: 88px;
+  }
+  
+  .conta{
+    font-family: 'Montserrat', sans-serif;
+    color: #404040;
+    font-weight: 500;
+    font-size: 16px;
+    position: absolute;
+    bottom: 35px;
+    right: 158px;
+  }
+  
+  .frase{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute;
+    width: 513px;
+    left: 451px;
+    bottom: 20px;
+  }
+  
+  #pesquisa{
+    background: #FFFFFF;
+    border: 1px solid #8D8D8D;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 408px;
+    height: 48px;
+    position: absolute;
+    right: 65px;
+    top: 53px;
+  }
+  
+  .lupa{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 17px;
+    top: 10px;
+  }
+  
+  .busca{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color:#8D8D8D;
+    position: absolute;
+    top: 37px;
+    right: 200px;
+  }
+
+  main{
+      position: absolute;
+      top: 298px;
+      left: 0px;
+      right: 0px;
+  }
+
+
+  .flextotal{
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .gridleft{
+      display: grid;
+      grid-template-columns: 367px 220px;
+      grid-template-rows: 242px 242px;
+      grid-column-gap: 38px;
+      grid-row-gap: 35px;
+  }
+
+  .gridright{
+    display: grid;
+    grid-template-columns: 367px 220px;
+    grid-template-rows: 242px 242px;
+    grid-column-gap: 38px;
+    grid-row-gap: 26px;
+  }
+
+  .gridleft > div{
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+
+  .gridright > div{
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+
+  .gridleft > div:nth-child(1){
+      width: 367px;
+      height: 484px;
+      align-items: center;
+      text-align: center;
+      padding-top: 27px;
+  }
+
+  .gridleft > div:nth-child(2){
+      width: 220px;
+      height: 210px;
+      padding-left: 31px;
+      padding-top: 26px;
+  }
+
+  .gridleft > div:nth-child(3){
+    width: 220px;
+    height: 210px;
+    grid-row: 2;
+    grid-column: 2;
+    padding-left: 31px;
+    padding-top: 26px;
+  }
+
+  .gridright > div:nth-child(1){
+    width: 367px;
+    height: 484px;
+    align-items: center;
+    text-align: center;
+    padding-top: 27px;
+  }
+
+  .gridright > div:nth-child(2){
+    width: 220px;
+    height: 210px;
+    padding-top: 28px;
+    padding-left: 32px;
+  }
+
+  .gridright > div:nth-child(3){
+    width: 220px;
+    height: 210px;
+    grid-column: 2;
+    padding-top: 35px;
+    padding-left: 37px;
+  }
+
+  .tablito{
+    width: 270px;
+    height: 270px;
+  }
+  
+  .brigadeiro{
+    width: 158px;
+    height: 158px;
+  }
+  
+  .kolorix{
+    width: 158px;
+    height: 158px;
+  }
+  
+  .chicabon{
+    width: 270px;
+    height: 270px;
+  }
+  
+  .morango{
+    width: 156px;
+    height: 156px;
+  }
+  
+  .minion{
+    width: 146px;
+    height: 146px;
+  }
+
+  .Picole1{
+      font-size: 25px;
+      padding-right: 10px;
+  }
+
+  .Legenda1{
+    color: #8A8585;
+    font-size: 16px;
+    padding-left: 44px;
+    padding-right: 63px;
+  }
+
+  .Preço1{
+      font-size: 25px;
+      padding-right: 40px;
+  }
+
+  .Picole2{
+    font-size: 25px;
+    padding-right: 10px;
+  }
+
+  .Legenda2{
+    color: #8A8585;
+    font-size: 16px;
+    padding-left: 71px;
+    padding-right: 70px;
+  }
+
+  .Preço2{
+    font-size: 25px;
+    padding-right: 30px;
+  }
+
+  @media (max-width: 375px) {
+    #nomelogoHeader{
+      position: absolute;
+      width: 97px;
+      height: 35px;
+      left: 21px;
+      top: 5px;
+    }
+    
+    .imagemlogoHeader{
+      position: absolute;
+      left: 0%;
+      right: 61.66%;
+      top: 0%;
+      bottom: 0%;
+      width: 46px;
+      height: 47px;
+    }
+
+    .rectangles{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 247px;
+      height: 46px;
+      position: absolute;
+      top: 107px;
+      left: 64px;
+    }
+
+    .rectangles > img{
+      width: 67px;
+      height: 20px;
+    }
+  
+    .blue {
+      width: 31px;
+      height: 32px;
+      position: absolute;
+      top: 88px;
+      left: 90px;
+    }
+  
+    .pink {
+      width: 31px;
+      height: 32px;
+      position: absolute;
+      top: 84px;
+      left: 173px;
+    }
+  
+    .orange {
+      width: 31px;
+      height: 32px;
+      position: absolute;
+      top: 88px;
+      left: 253px;
+    }
+    
+    .imagemlogoFooter{
+      display: none;
+    }
+    
+    #logoHeader{
+      position: absolute;
+      width: 118px;
+      height: 47px;
+      left: 19px;
+      top: 16px;
+    }
+    
+    .doubleHeader{
+      font-size: 10px;
+      position: absolute;
+      right: 23px;
+      bottom: 6px;
+    }
+    
+    .dipHeader{
+      font-size: 10px;
+      top: 10px;
+      right: 16px;
+    }
+    
+    .doubleFooter{
+      display: none;
+    }
+    
+    .dipFooter{
+      display: none;
+    }
+    
+    header{
+      position: absolute;
+      width: 375px;
+      height: 198px;
+      left: 0px;
+      right: 0px;
+      top: 0px;
+    }
+    
+    footer{
+      position: absolute;
+      width: 357px;
+      height: 202px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+    
+    #telefone{
+      width: 16px;
+      height: 12.29px;
+      position: absolute;
+      right: 240px;
+      top: 26.77px;
+    }
+    
+    #email {
+      width: 19px;
+      height: 19px;
+      position: absolute;
+      right: 238px;
+      top: 61.48px;
+    }
+    
+    #instagram{
+      width: 18px;
+      height: 21px;
+      position: absolute;
+      top: 103.48px;
+      right: 238px;
+    }
+    
+    .numero{
+      text-align: center;
+      font-size: 12px;
+      position: absolute;
+      right: 150px;
+      top: 13px;
+    }
+    
+    .endereco{
+      font-size: 12px;
+      position: absolute;
+      right: 98px;
+      top: 53px;
+    }
+    
+    .conta{
+      font-size: 12px;
+      position: absolute;
+      top: 94px;
+      right: 117px;
+    }
+    
+    .frase{
+      font-size: 13px;
+      position: absolute;
+      left: 25px;
+      top: 155px;
+    }
+    
+    #pesquisa{
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 315px;
+      top: 24px;
+    }
+    
+    .lupa{
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      left: 6px;
+      top: 6px;
+    }
+    
+    .busca{
+      display: none;
+    }
+  
+    main{
+        position: absolute;
+        top: 198px;
+        left: 0px;
+        right: 0px;
+    }
+  
+    .flextotal{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        left: 20px;
+    }
+  
+    .gridleft{
+        display: grid;
+        grid-template-columns: 167px 100px;
+        grid-template-rows: 110px 110px;
+        grid-column-gap: 18px;
+        grid-row-gap: 29px;
+    }
+  
+    .gridright{
+      display: grid;
+      grid-template-columns: 99px 165px;
+      grid-template-rows: 47px 47px;
+      grid-column-gap: 40px;
+      grid-row-gap: 85px;
+      position: absolute;
+      top: 300px;
+    }
+  
+    .gridleft > div{ 
+      background: #FFFEFE;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+  
+    .gridright > div{ 
+      background: #FFFEFE;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+  
+    .gridleft > div:nth-child(1){
+        width: 167px;
+        height: 220px;
+        align-items: center;
+        text-align: center;
+    }
+  
+    .gridleft > div:nth-child(2){
+        width: 100px;
+        height: 95px;
+        padding-left: 14px;
+        padding-top: 11px;
+    }
+  
+    .gridleft > div:nth-child(3){
+      width: 100px;
+      height: 96px;
+      grid-row: 2;
+      grid-column: 2;
+      padding-left: 14px;
+      padding-top: 11px;
+    }
+  
+    .gridright > div:nth-child(1){
+      width: 165px;
+      height: 217px;
+      align-items: center;
+      text-align: center;
+      grid-column: 2;
+    }
+  
+    .gridright > div:nth-child(2){
+      width: 99px;
+      height: 94px;
+      padding-top: 12px;
+      padding-left: 15px;
+      grid-column: 1;
+      grid-row: 1;
+    }
+  
+    .gridright > div:nth-child(3){
+      width: 99px;
+      height: 94px;
+      grid-column: 2;
+      padding-top: 15px;
+      padding-left: 17px;
+      grid-column: 1;
+      grid-row: 2;
+    }
+  
+    .tablito{
+      width: 123px;
+      height: 123px;
+    }
+    
+    .brigadeiro{
+      width: 72px;
+      height: 72px;
+    }
+    
+    .kolorix{
+      width: 72px;
+      height: 72px;
+    }
+    
+    .chicabon{
+      width: 110px;
+      height: 110px;
+    }
+    
+    .morango{
+      width: 70px;
+      height: 70px;
+    }
+    
+    .minion{
+      width: 65px;
+      height: 66px;
+    }
+  
+    .Picole1{
+        font-size: 15px;
+        padding-left: 10px;
+        position: absolute;
+        bottom: 63px;
+        left: 25px;
+    }
+  
+    .Legenda1{
+      color: #8A8585;
+      font-size: 8px;
+      padding-left: 26px;
+      padding-right: 28px;
+      padding-top: 15px;
+    }
+  
+    .Preço1{
+        font-size: 14px;
+        padding-left: 37px;
+    }
+  
+    .Picole2{
+      font-size: 15px;
+      padding-right: 10px;
+      position: absolute;
+      bottom: 4px;
+      left: 180px;
+    }
+  
+    .Legenda2{
+      color: #8A8585;
+      font-size: 8px;
+      padding-left: 30px;
+      padding-right: 35px;
+      padding-top: 15px;
+    }
+  
+    .Preço2{
+      font-size: 14px;
+      padding-right: 10px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
